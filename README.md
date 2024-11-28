@@ -1,27 +1,107 @@
-# Catalogue
+# Peerlist - Angular Cameroon Community
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+Welcome to **Peerlist**, a project dedicated to maintaining a comprehensive list of all members of the Angular Cameroon community! This repository serves as a hub for collaboration, networking, and showcasing the amazing members who are part of this community.
 
-## Development server
+## 🌟 Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- A searchable list of community members.
+- Profiles showcasing skills, contributions, and contact information.
+- A welcoming platform for connecting Angular enthusiasts in Cameroon.
 
-## Code scaffolding
+## 🚀 Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Follow the instructions below to set up Peerlist locally.
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [Angular CLI](https://angular.io/cli) (v15 or later)
+- Git
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/peerlist.git
+   cd peerlist
+   ```
 
-## Running end-to-end tests
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Run the development server:
+   ```bash
+   ng serve
+   ```
 
-## Further help
+4. Open the app in your browser:
+   Visit `http://localhost:4200` to view the application.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🙌 Contributing
+
+We welcome contributions from the community! Whether you want to add your profile, improve the UI, or optimize functionality, your input is valuable.
+
+### Contribution Guidelines
+
+1. **Fork this repository**:
+   Click the "Fork" button on the top-right corner of this repository.
+
+2. **Clone your fork**:
+   ```bash
+   git clone https://github.com/yourusername/peerlist.git
+   cd peerlist
+   ```
+
+3. **Create a new branch**:
+   ```bash
+   git checkout -b your-feature-branch
+   ```
+
+4. **Make your changes**:
+   Add your profile or make other improvements. Ensure the code adheres to the existing style guide.
+
+5. **Commit your changes**:
+   ```bash
+   git commit -m "Add your description here"
+   ```
+
+6. **Push your branch**:
+   ```bash
+   git push origin your-feature-branch
+   ```
+
+7. **Submit a pull request (PR)**:
+   Go to the [original repository](https://github.com/ngcameroon/peerlist), click "Pull Requests," and submit your changes.
+
+---
+
+## 📝 How to Add Your Profile
+
+1. Navigate to the `src/app/members` folder.
+2. Add your profile information in the designated format (e.g., JSON or TypeScript file).
+3. Submit your changes following the contribution steps above.
+
+---
+
+## 📖 Documentation
+
+Refer to the [Wiki](https://github.com/ngcameroon/peerlist/wiki) for detailed information about the project structure and coding guidelines.
+
+---
+
+## 💬 Need Help?
+
+If you have questions or need assistance, feel free to:
+- Open an issue in this repository.
+- Join our community on [Angular Cameroon](https://github.com/ngcameroon).
+
+---
+
+## 🎉 Acknowledgments
+
+Thanks to the amazing members of the Angular Cameroon community for making this project possible!
