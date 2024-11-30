@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { faBrandIcon, faIcon } from '../../utils/icon.utils';
 import { MemberComponent } from './member/member.component';
+import { members } from '../../members/members';
 
 @Component({
   selector: 'ngc-members',
@@ -12,4 +13,5 @@ import { MemberComponent } from './member/member.component';
 export class MembersComponent {
   protected readonly faIcon = faIcon;
   protected readonly faBrandIcon = faBrandIcon;
+  protected members = members
 }
