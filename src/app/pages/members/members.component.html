@@ -1,0 +1,22 @@
+<div class="container mx-auto p-5 flex flex-col gap-3 h-full">
+    <div class="flex justify-between items-center mb-10">
+        <div class="flex items-center h-[50px]">
+            <img src="assets/images/ngcameroon-black.png" class="h-full" alt="angular cameroon logo" />
+        </div>
+        <div class="flex justify-center gap-4 items-center p-2">
+            <a href="http://x.com/ngcameroon" target="_blank" rel="noopener noreferrer">
+                <i class="{{faBrandIcon('x-twitter')}} text-3xl"></i>
+            </a>
+            <a href="http://github.com/ngcameroon" target="_blank" rel="noopener noreferrer">
+                <i class="{{faBrandIcon('github')}} text-3xl"></i>
+            </a>
+        </div>
+    </div>
+    <div class="flex flex-col items-center gap-4 mt-10 mx-auto bg-transparent backdrop-blur-sm rounded-xl px-5 py-3">
+        <h1 class="capitalize font-bold text-center text-6xl">Welcome to Angular Cameroon</h1>
+        <p class="text-center text-xl">This project contains a list of all the members in the angular cameroon community.</p>
+    </div>
+    <div class="flex-grow bg-transparent backdrop-blur-sm rounded-xl mt-2 p-2 flex flex-wrap justify-center gap-4">
+        <ngc-member />
+    </div>
+</div>
