@@ -16,10 +16,12 @@ Follow the instructions below to set up Peerlist locally.
 
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or later)
-- [Angular CLI](https://angular.io/cli) (v15 or later)
+- [Angular CLI](https://angular.dev) (v15 or later)
 - Git
 
 ### Installation
+
+1. Fork the branch by clicking the fork section
 
 1. Clone this repository:
    ```bash
