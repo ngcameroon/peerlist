@@ -37,4 +37,13 @@ export const members: Member[] = [
             twitter: 'nebadesmondc'
         }
     },
+    {
+        name: 'Tasha Maxwell',
+        skills: ['Software Developer'],
+        socials: {
+            github:'Tasha339',
+            linkedin: 'tashamaxwell',
+            twitter: 'tashamaxwellnt'
+        }
+    },
 ]
