@@ -37,4 +37,14 @@ export const members: Member[] = [
             twitter: 'nebadesmondc'
         }
     },
+
+    {
+        name: 'Doh Yulambe M',
+        skills: ['Software Developer and data scientist'],
+        socials: {
+            github: 'dohyulambe',
+            linkedin: 'DOH YULAMBE M',
+            twitter: 'Doh_Mikail'
+        }
+    },
 ]
