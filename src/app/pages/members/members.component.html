@@ -16,7 +16,32 @@
         <h1 class="capitalize font-bold text-center text-6xl">Welcome to Angular Cameroon</h1>
         <p class="text-center text-xl">This project contains a list of all the members in the angular cameroon community.</p>
     </div>
-    <div class="flex-grow bg-transparent backdrop-blur-sm rounded-xl mt-2 p-2 flex flex-wrap justify-center gap-4">
-        <ngc-member />
+    
+    <div class="flex-grow overflow-y-auto bg-transparent backdrop-blur-sm rounded-xl mt-2 p-2 flex flex-wrap justify-center gap-4">
+        <!-- Angular Cameroon Socials -->
+        <div class="w-[250px] h-[200px] w-max-[250px] h-max-[200px] rounded-2xl shadow-sm p-4 gap-3 cursor-pointer hover:bg-slate-50 transition-all duration-75 flex flex-col items-center justify-center">
+            <div class="w-[60px] h-[60px] relative mx-auto rounded-full">
+                <!-- Images goes in here -->
+                <img src="assets/images/ngcameroon-b&w.png" class="absolute top-0 left-0 w-full h-full" alt="profile" />
+            </div>
+            <!-- Name of member -->
+            <div class="capitalize text-lg text-center overflow-hidden text-ellipsis text-nowrap w-full">Angular Cameroon</div>
+            <!-- Socials -->
+            <div class="flex justify-center gap-4 items-center p-2">
+                <a href="http://x.com/ngcameroon" target="_blank" rel="noopener noreferrer">
+                    <i class="{{faBrandIcon('x-twitter')}} text-2xl"></i>
+                </a>
+                <a href="http://github.com/ngcameroon" target="_blank" rel="noopener noreferrer">
+                    <i class="{{faBrandIcon('github')}} text-2xl"></i>
+                </a>
+                <a href="http://linkedin.com/company/ngcameroon" target="_blank" rel="noopener noreferrer">
+                    <i class="{{faBrandIcon('linkedin')}} text-2xl"></i>
+                </a>
+            </div>
+        </div>
+
+        @for (member of members; track member.socials.github) {
+            <ngc-member [member]="member" />
+        }
     </div>
 </div>
