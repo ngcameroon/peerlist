@@ -41,8 +41,8 @@ export const members: Member[] = [
         name: 'Tasha Maxwell',
         skills: ['Software Developer'],
         socials: {
-            github:'Tasha339',
-            linkedin: 'tashamaxwell',
+            github:'tashamaxwellnt',
+            linkedin: 'tashamaxwellnt',
             twitter: 'tashamaxwellnt'
         }
     },
