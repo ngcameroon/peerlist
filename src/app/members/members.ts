@@ -108,5 +108,14 @@ export const members: Member[] = [
             linkedin: 'Afungchwi Emme-Rita',
             twitter: 'Afungchwi_Rita'
         }
-    }
+    },
+    {
+        name: 'Tasha Maxwell',
+        skills: ['Software Developer'],
+        socials: {
+            github:'tashamaxwellnt',
+            linkedin: 'tashamaxwellnt',
+            twitter: 'tashamaxwellnt'
+        }
+    },
 ]
