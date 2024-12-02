@@ -95,9 +95,9 @@ export const members: Member[] = [
         name: 'Abdulmumini1',
         skills: ['Software Developer'],
         socials: {
-            github: 'andulmumin11',
-            linkedin: 'andulmumin11',
-            twitter: 'andulmumin11'
+            github: 'Abdulmumini1',
+            linkedin: 'Abdulmumini1',
+            twitter: 'Abdulmumini1'
         }
     }
 ]
