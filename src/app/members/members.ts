@@ -91,4 +91,13 @@ export const members: Member[] = [
             twitter: 'Doh_Mikail'
         }
     },
+    {
+        name: 'Jean Perrin',
+        skills: ['Software Developer',"Hacktitude"],
+        socials: {
+            github: 'MAIDUGU',
+            linkedin: 'MAIDUGU',
+            twitter: 'MAIDUGU'
+        }
+    },
 ]
