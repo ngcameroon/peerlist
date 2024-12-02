@@ -46,7 +46,7 @@ export const members: Member[] = [
             twitter: 'johnbrindi'
         }
     },
-  {
+    {
         name: 'Doh Landrine',
         skills: ['Mobile and Game Developer',],
         socials: {
@@ -54,5 +54,14 @@ export const members: Member[] = [
             linkedin: 'dohlandrine',
             twitter: 'DohLandrine'
         }
-  }
+    },
+    {
+        name: 'Emma',
+        skills: ['Backend Developer'],
+        socials: {
+            github: 'Emma20040',
+            linkedin: 'Emmanuel Nkwanwi Fongong',
+            twitter: 'cryptoTech237'
+        }
+    },
 ]
