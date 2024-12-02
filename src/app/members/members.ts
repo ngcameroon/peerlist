@@ -74,12 +74,12 @@ export const members: Member[] = [
         }
     },
     {
-      name: 'VLAD DRACULA',
-      skills: ['REDTEAM OPERATOR*','Web Mobile and Network Penetration Tester','Ethical Hacker'],
-      socials: {
-          github: 'Maimoharris',
-          linkedin: 'MaimoHarris',
-          twitter: 'MaimoHarris'
-      }
+        name: 'VLAD DRACULA',
+        skills: ['REDTEAM OPERATOR*','Web Mobile and Network Penetration Tester','Ethical Hacker'],
+        socials: {
+            github: 'Maimoharris',
+            linkedin: 'MaimoHarris',
+            twitter: 'MaimoHarris'
+        }
   },
 ]
