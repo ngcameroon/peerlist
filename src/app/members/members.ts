@@ -13,8 +13,8 @@ export interface Member {
 }
 
 /**
- * List of community members 
- * 
+ * List of community members
+ *
  * Add your own profile at the buttom of this object
  */
 export const members: Member[] = [
@@ -73,4 +73,13 @@ export const members: Member[] = [
             twitter: 'Vanelledjuikui91'
         }
     },
+    {
+        name: 'VLAD DRACULA',
+        skills: ['REDTEAM OPERATOR*','Web Mobile and Network Penetration Tester','Ethical Hacker'],
+        socials: {
+            github: 'Maimoharris',
+            linkedin: 'MaimoHarris',
+            twitter: 'MaimoHarris'
+        }
+  },
 ]
