@@ -1,7 +1,11 @@
 <div class="w-[250px] w-max-[250px] h-[200px] h-max-[200px] rounded-2xl shadow-sm p-4 gap-3 cursor-pointer hover:bg-slate-50 transition-all duration-75 flex flex-col items-center justify-center">
     <div class="w-[60px] h-[60px] relative mx-auto rounded-full">
         <!-- Images goes in here -->
-        <img [src]="avatarUrl" class="absolute top-0 left-0 w-full h-full rounded-full" [alt]="member.name" />
+        @if (avatarUrl) {
+            <img [src]="avatarUrl" class="absolute top-0 left-0 w-full h-full rounded-full" [alt]="member.name" />
+        } @else {
+            <div class="absolute top-0 left-0 w-full h-full rounded-full bg-purple-800 text-white flex items-center justify-center text-2xl font-bold">{{literal}}</div>
+        }
     </div>
     <!-- Name of member -->
     <div class="capitalize text-lg text-center overflow-hidden text-ellipsis text-nowrap w-full">{{member.name}}</div>

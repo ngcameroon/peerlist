@@ -13,15 +13,31 @@ import { Member } from '../../../members/members';
 export class MemberComponent implements OnInit {
   protected readonly faBrandIcon = faBrandIcon;
   @Input() member!: Member
-  protected avatarUrl = ""
+  protected avatarUrl?: string;
+  protected literal = '';
 
   constructor(
     private githubService: GithubService
-  ) {}
+  ) { }
 
   ngOnInit(): void {
-    this.githubService.getGithubProfile(this.member.socials.github).subscribe(res => {
-      this.avatarUrl = res.avatar_url
+    this.githubService.getGithubProfile(this.member.socials.github).subscribe({
+      next: res => {
+        this.avatarUrl = res.avatar_url
+      },
+      error: err => {
+        if (this.member) this.literal = this.createUserProfile(this.member.name);
+      }
     })
   }
+
+  private createUserProfile(name: string): string {
+    if (!name.trim()) throw new Error('Name must not be empty.');
+    return name
+      .split(' ')
+      .filter(word => word.length > 0)
+      .map(word => word.charAt(0).toUpperCase())
+      .join('');
+  }
+  
 }
